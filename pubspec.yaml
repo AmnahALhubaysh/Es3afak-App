@@ -1,0 +1,74 @@
+name: esafak_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  video_player: ^2.8.1
+  google_fonts: ^8.1.0
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  sqflite: ^2.4.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4 # أضيفي هذا السطر
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.jpg" # مسار صورتك
+  
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  
+  assets:
+    - assets/images/logo.jpeg
+    - assets/images/icon.jpg
+    - assets/images/1.jpg
+    - assets/images/2.jpg
+    - assets/images/3.jpg
+    - assets/images/4.jpg
+    - assets/images/5.jpg
+    - assets/images/6.jpg
+    - assets/images/7.jpg
+    - assets/images/8.jpg
+    - assets/images/9.jpg
+    - assets/images/10.jpg
+    - assets/images/11.jpeg
+    - assets/video/nosebleedAR.mp4
+    - assets/video/nosebleedEN.mp4
+    - assets/video/FractureAR.mp4
+    - assets/video/FractureEN.mp4
+    - assets/video/Heat_strokeAR.mp4
+    - assets/video/FractureEN.mp4
+    - assets/video/Low_blood_sugarAR.mp4
+    - assets/video/Low_blood_sugarEN.mp4
+    - assets/video/burnAR.mp4
+    - assets/video/burnEN.mp4
+    - assets/video/choeingAR.mp4
+    - assets/video/chokingEN.mp4
+    - assets/video/CPRAR.mp4
+    - assets/video/CPREN.mp4
+    - assets/video/woundAR.mp4
+    - assets/video/woundEN.mp4
